@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Kparkay Togba | Security-First Senior Software Engineer</title>
+  <meta name="description" content="Security-first senior software engineer specializing in cloud-native architecture, DevSecOps, and distributed systems." />
+  <style>
+    :root{
+      --bg:#0b1220;
+      --card:#0f1a2e;
+      --text:#e8eefc;
+      --muted:#b7c4e6;
+      --accent:#7aa7ff;
+      --border:rgba(255,255,255,.10);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background: radial-gradient(1200px 600px at 20% 0%, rgba(122,167,255,.18), transparent 55%),
+                  radial-gradient(900px 500px at 80% 20%, rgba(122,167,255,.10), transparent 50%),
+                  var(--bg);
+      color:var(--text);
+      line-height:1.55;
+    }
+    a{color:var(--accent); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1040px; margin:0 auto; padding:28px 18px 80px;}
+    .nav{
+      display:flex; gap:14px; align-items:center; justify-content:space-between;
+      padding:12px 14px; border:1px solid var(--border);
+      border-radius:18px; background:rgba(15,26,46,.65); backdrop-filter: blur(10px);
+      position:sticky; top:12px;
+    }
+    .nav .links{display:flex; gap:12px; flex-wrap:wrap}
+    .brand{font-weight:800; letter-spacing:.4px}
+    .hero{padding:48px 6px 22px}
+    .kicker{color:var(--muted); font-weight:600; letter-spacing:.3px}
+    h1{font-size:44px; margin:10px 0 10px; line-height:1.08}
+    .sub{max-width:820px; color:var(--muted); font-size:17px}
+    .cta{display:flex; gap:12px; flex-wrap:wrap; margin-top:18px}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      padding:10px 14px; border-radius:14px;
+      border:1px solid var(--border); background:rgba(15,26,46,.75);
+      color:var(--text); font-weight:700;
+    }
+    .btn.primary{background:rgba(122,167,255,.20); border-color:rgba(122,167,255,.35)}
+    .grid{display:grid; grid-template-columns: repeat(12, 1fr); gap:14px; margin-top:18px}
+    .card{
+      grid-column: span 12;
+      border:1px solid var(--border); border-radius:18px;
+      background: rgba(15,26,46,.60); backdrop-filter: blur(10px);
+      padding:18px;
+    }
+    .card h2{margin:0 0 10px; font-size:18px}
+    .pillrow{display:flex; gap:8px; flex-wrap:wrap}
+    .pill{
+      font-size:13px; color:var(--text);
+      padding:6px 10px; border-radius:999px;
+      border:1px solid var(--border); background:rgba(255,255,255,.04);
+    }
+    .two .card{grid-column: span 12}
+    @media(min-width:880px){
+      .two .card{grid-column: span 6}
+      h1{font-size:54px}
+    }
+    .proj{display:flex; flex-direction:column; gap:8px}
+    .proj .meta{color:var(--muted); font-size:13px}
+    .list{margin:8px 0 0; padding-left:18px; color:var(--muted)}
+    footer{margin-top:26px; color:var(--muted); font-size:13px}
+    .hr{height:1px; background:var(--border); margin:16px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="nav">
+      <div class="brand">Kparkay Togba</div>
+      <div class="links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+    <section class="hero" id="about">
+      <div class="kicker">Security-First Senior Software Engineer • Cloud-Native • DevSecOps</div>
+      <h1>Building secure, scalable systems that ship fast—and stay compliant.</h1>
+      <p class="sub">
+        I design and deliver cloud-native applications and secure platforms using microservices, Kubernetes,
+        CI/CD automation, and security-first engineering practices. Strong background in secure SDLC,
+        NIST-aligned controls, and incident-ready operations.
+      </p>
+      <div class="cta">
+        <a class="btn primary" href="#contact">Contact Me</a>
+        <a class="btn" href="mailto:alvintogba@yahoo.com">alvintogba@yahoo.com</a>
+        <a class="btn" href="https://www.linkedin.com/in/kparkay-togba-54bb0828/" target="_blank" rel="noreferrer">LinkedIn</a>
+      </div>
+    </section>
+
+    <section class="grid two" id="skills">
+      <div class="card">
+        <h2>Core Focus</h2>
+        <div class="pillrow">
+          <span class="pill">Cloud-Native Architecture</span>
+          <span class="pill">Distributed Systems</span>
+          <span class="pill">DevSecOps</span>
+          <span class="pill">Secure SDLC</span>
+          <span class="pill">API Security</span>
+          <span class="pill">Performance & Resilience</span>
+        </div>
+        <div class="hr"></div>
+        <h2>Tooling</h2>
+        <div class="pillrow">
+          <span class="pill">AWS (Lambda, S3)</span>
+          <span class="pill">Azure</span>
+          <span class="pill">Docker</span>
+          <span class="pill">Kubernetes</span>
+          <span class="pill">Jenkins</span>
+          <span class="pill">GitLab CI/CD</span>
+          <span class="pill">PostgreSQL</span>
+          <span class="pill">React / Redux</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2>Certifications & Education</h2>
+        <ul class="list">
+          <li>CompTIA Security+ CE</li>
+          <li>M.S. Information Technology (Software Engineering) — UMGC</li>
+          <li>B.S. Cybersecurity Management & Policy — UMGC</li>
+        </ul>
+        <div class="hr"></div>
+        <h2>Location</h2>
+        <p class="sub" style="margin:0">Gaithersburg, Maryland • Washington DC–Baltimore Area</p>
+      </div>
+    </section>
+
+    <section class="grid" id="projects">
+      <div class="card">
+        <h2>Featured Projects</h2>
+
+        <div class="proj">
+          <div><strong>Secure Cloud-Native API Platform</strong></div>
+          <div class="meta">AWS Lambda • S3 • Secure IAM • Observability</div>
+          <div class="sub">Serverless services designed with least privilege, audit-friendly logging, and scalable patterns.</div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="proj">
+          <div><strong>Kubernetes Microservices Modernization</strong></div>
+          <div class="meta">Docker • Kubernetes • Network Segmentation • Deployment Automation</div>
+          <div class="sub">Containerized services and introduced secure deployment workflows to increase release efficiency.</div>
+        </div>
+
+        <div class="hr"></div>
+
+        <div class="proj">
+          <div><strong>DevSecOps Pipeline with Security Gates</strong></div>
+          <div class="meta">Jenkins • GitLab • Automated Testing • Vulnerability Scanning</div>
+          <div class="sub">Built pipelines with quality gates and automated security checks to reduce deployment risk.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="grid" id="experience">
+      <div class="card">
+        <h2>Experience Highlights</h2>
+        <ul class="list">
+          <li>Improved scalability by ~60% through secure AWS cloud-native design.</li>
+          <li>Reduced DB response times by ~25% with secure query + access controls.</li>
+          <li>Increased deployment efficiency by ~70% through containerization and orchestration.</li>
+          <li>Reduced manual deployment errors by ~40% by hardening CI/CD automation.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="grid" id="contact">
+      <div class="card">
+        <h2>Contact</h2>
+        <p class="sub" style="margin-top:0">
+          Email: <a href="mailto:alvintogba@yahoo.com">alvintogba@yahoo.com</a><br/>
+          Phone: <a href="tel:+12675166607">267-516-6607</a><br/>
+          LinkedIn: <a href="https://www.linkedin.com/in/kparkay-togba-54bb0828/" target="_blank" rel="noreferrer">kparkay-togba</a>
+        </p>
+        <footer>© <span id="y"></span> Kparkay Togba • Built for speed, clarity, and recruiter readability.</footer>
+      </div>
+    </section>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
