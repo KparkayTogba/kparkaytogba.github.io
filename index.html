@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Kparkay Alvin Togba — Technology & Security Leader</title>
+<title>Kparkay Togba — Security-First Senior Software Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Outfit:wght@200;300;400;500;600&family=Inconsolata:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -237,7 +237,6 @@ nav.scrolled {
     transparent 30%
   );
 }
-/* Gold accent line on right edge */
 .hero-right::after {
   content: '';
   position: absolute;
@@ -275,7 +274,6 @@ nav.scrolled {
 /* ── SECTION SYSTEM ───────────────────────── */
 .section-wrap { padding: 110px 64px; }
 .section-wrap.alt-bg { background: var(--off); }
-.section-wrap.ink-bg { background: var(--ink); }
 
 .section-label {
   display: flex; align-items: center; gap: 16px;
@@ -299,7 +297,6 @@ nav.scrolled {
   margin-bottom: 64px;
 }
 .section-heading em { font-style: italic; font-weight: 400; color: var(--gold); }
-.section-heading.light { color: var(--white); }
 
 /* ── ABOUT — SPLIT PHOTO ────────────────── */
 #about {
@@ -357,7 +354,6 @@ nav.scrolled {
   z-index: 1;
   pointer-events: none;
 }
-/* decorative gold frame corner */
 .about-photo-col::after {
   content: '';
   position: absolute;
@@ -369,26 +365,26 @@ nav.scrolled {
   opacity: 0.6;
 }
 
-/* ── EXPERTISE CARDS ──────────────────────── */
-.cards-grid {
+/* ── STRENGTHS GRID ──────────────────────── */
+.strengths-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   background: var(--border);
   border: 1px solid var(--border);
 }
-.exp-card {
+.strength-card {
   background: var(--white);
-  padding: 44px 38px;
+  padding: 36px 32px;
   position: relative;
   overflow: hidden;
   transition: all 0.35s ease;
   opacity: 0;
   transform: translateY(24px);
 }
-.exp-card.visible { opacity: 1; transform: none; }
-.exp-card:hover { background: var(--off); }
-.exp-card::after {
+.strength-card.visible { opacity: 1; transform: none; }
+.strength-card:hover { background: var(--off); }
+.strength-card::after {
   content: '';
   position: absolute;
   bottom: 0; left: 0;
@@ -396,27 +392,25 @@ nav.scrolled {
   background: var(--blue);
   transition: width 0.4s ease;
 }
-.exp-card:hover::after { width: 100%; }
-.card-num {
-  font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  color: var(--off2);
-  line-height: 1;
-  margin-bottom: 20px;
-  transition: color 0.3s;
+.strength-card:hover::after { width: 100%; }
+.strength-cat {
+  font-family: 'Inconsolata', monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--blue);
+  margin-bottom: 10px;
 }
-.exp-card:hover .card-num { color: var(--blue-lt); }
-.card-title {
+.strength-title {
   font-family: 'Playfair Display', serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--ink);
-  margin-bottom: 12px;
+  margin-bottom: 8px;
 }
-.card-desc {
-  font-size: 0.82rem;
-  line-height: 1.72;
+.strength-desc {
+  font-size: 0.8rem;
+  line-height: 1.65;
   color: var(--ink3);
 }
 
@@ -519,7 +513,7 @@ nav.scrolled {
   font-size: 0.7rem;
 }
 
-/* ── PHOTO DIVIDER STRIP ─────────────────── */
+/* ── PHOTO STRIP ─────────────────────────── */
 .photo-strip {
   height: 380px;
   position: relative;
@@ -545,9 +539,6 @@ nav.scrolled {
   display: flex; align-items: center;
   padding: 0 80px;
 }
-.strip-quote {
-  max-width: 520px;
-}
 .strip-quote blockquote {
   font-family: 'Playfair Display', serif;
   font-size: clamp(1.4rem, 2.5vw, 2rem);
@@ -556,6 +547,7 @@ nav.scrolled {
   color: var(--white);
   line-height: 1.45;
   margin-bottom: 20px;
+  max-width: 520px;
 }
 .strip-quote cite {
   font-size: 0.7rem;
@@ -673,7 +665,6 @@ nav.scrolled {
   border-color: var(--blue);
   background: var(--blue-lt);
 }
-.c-info {}
 .c-type {
   font-family: 'Inconsolata', monospace;
   font-size: 0.58rem;
@@ -707,12 +698,13 @@ footer span {
   to   { opacity: 1; transform: none; }
 }
 
-.exp-card:nth-child(1) { transition-delay: 0s; }
-.exp-card:nth-child(2) { transition-delay: 0.08s; }
-.exp-card:nth-child(3) { transition-delay: 0.16s; }
-.exp-card:nth-child(4) { transition-delay: 0.04s; }
-.exp-card:nth-child(5) { transition-delay: 0.12s; }
-.exp-card:nth-child(6) { transition-delay: 0.2s; }
+.strength-card:nth-child(1) { transition-delay: 0s; }
+.strength-card:nth-child(2) { transition-delay: 0.08s; }
+.strength-card:nth-child(3) { transition-delay: 0.16s; }
+.strength-card:nth-child(4) { transition-delay: 0.04s; }
+.strength-card:nth-child(5) { transition-delay: 0.12s; }
+.strength-card:nth-child(6) { transition-delay: 0.2s; }
+.strength-card:nth-child(7) { transition-delay: 0.08s; }
 
 .skill-col:nth-child(1) { transition-delay: 0s; }
 .skill-col:nth-child(2) { transition-delay: 0.07s; }
@@ -724,7 +716,6 @@ footer span {
 .t-item:nth-child(3) { transition-delay: 0.14s; }
 .t-item:nth-child(4) { transition-delay: 0.21s; }
 .t-item:nth-child(5) { transition-delay: 0.28s; }
-.t-item:nth-child(6) { transition-delay: 0.35s; }
 
 /* ── RESPONSIVE ──────────────────────────── */
 @media (max-width: 1024px) {
@@ -737,7 +728,7 @@ footer span {
   #about { grid-template-columns: 1fr; }
   .about-content { padding: 70px 28px; }
   .about-photo-col { min-height: 320px; }
-  .cards-grid { grid-template-columns: 1fr; }
+  .strengths-grid { grid-template-columns: 1fr; }
   #experience { grid-template-columns: 1fr; }
   .exp-sidebar { position: static; height: auto; padding: 60px 28px; }
   .exp-timeline { padding: 60px 28px; }
@@ -756,10 +747,10 @@ footer span {
 
 <!-- NAV -->
 <nav id="nav">
-  <div class="nav-logo">K. Alvin Togba</div>
+  <div class="nav-logo">Kparkay Togba</div>
   <ul class="nav-links">
     <li><a href="#about">About</a></li>
-    <li><a href="#expertise">Expertise</a></li>
+    <li><a href="#strengths">Strengths</a></li>
     <li><a href="#experience">Experience</a></li>
     <li><a href="#skills">Skills</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -769,18 +760,15 @@ footer span {
 <!-- HERO -->
 <section id="hero">
   <div class="hero-left">
-    <p class="hero-eyebrow">Sr. Information Security Engineer &amp; Administrator</p>
+    <p class="hero-eyebrow">Security-First Senior Software Engineer</p>
     <h1 class="hero-name">
       <em>Kparkay</em><br>
-      <span class="hero-surname">Alvin Togba</span>
+      <span class="hero-surname">Togba</span>
     </h1>
     <div class="hero-line"></div>
     <p class="hero-title">
-      <strong>Technology &amp; Security Leader</strong> I build systems that are secure by design, resilient under pressure, and aligned to business risk. My background spans cybersecurity engineering, cloud infrastructure, enterprise systems, software development, quality engineering, and operational support.
-
-Over the past 11+ years, I’ve worked across healthcare, enterprise, and regulated environments where reliability, compliance, and execution quality are non-negotiable. That perspective allows me to move comfortably between hands-on engineering, security operations, architecture, and leadership communication.
-
-My approach is simple: build with discipline, secure everything early, automate where it matters, and measure the result.
+      <strong>Cloud-Native · DevSecOps · Distributed Systems</strong><br>
+      Building secure, scalable systems across AWS, Azure, and Kubernetes with 11+ years of engineering and security excellence.
     </p>
     <div class="hero-cta">
       <a href="#experience" class="btn-blue">View Experience</a>
@@ -788,12 +776,8 @@ My approach is simple: build with discipline, secure everything early, automate 
     </div>
     <div class="hero-meta">
       <div class="meta-item">
-        <span class="meta-val">14+</span>
+        <span class="meta-val">11+</span>
         <span class="meta-key">Years</span>
-      </div>
-      <div class="meta-item">
-        <span class="meta-val">5</span>
-        <span class="meta-key">Organizations</span>
       </div>
       <div class="meta-item">
         <span class="meta-val">60%</span>
@@ -802,6 +786,10 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="meta-item">
         <span class="meta-val">95%+</span>
         <span class="meta-key">Test Coverage</span>
+      </div>
+      <div class="meta-item">
+        <span class="meta-val">45%</span>
+        <span class="meta-key">Risk Reduced</span>
       </div>
     </div>
   </div>
@@ -825,60 +813,65 @@ My approach is simple: build with discipline, secure everything early, automate 
     </div>
     <h2 class="section-heading">Security-first.<br><em>Results-driven.</em></h2>
     <div class="about-body">
-      <p>Versed across the full software and systems lifecycle — from requirements analysis and full-stack engineering through QA automation, database administration, UI design, network operations, and enterprise cybersecurity.</p>
-      <p>Currently serving as <strong>Sr. Information Security Engineer</strong> at Daltile Inc in Dallas, Texas — leading cloud security, SIEM operations, IAM, compliance, and incident response across Azure and AWS environments.</p>
-      <p>Prior role at <strong>MedStar Health</strong> as Software Engineer, building secure cloud-native platforms serving 10,000+ users across the healthcare ecosystem.</p>
+      <p>Security-first software engineer with <strong>11+ years</strong> across software engineering, cybersecurity operations, and infrastructure. Builds secure, scalable cloud-native systems using microservices, containerization, CI/CD automation, and modern API architectures.</p>
+      <p>Currently serving as <strong>Software Engineer at MedStar Health</strong> in Maryland — designing and deploying cloud-native services with AWS Lambda and Kubernetes while maintaining NIST-aligned security controls across healthcare-grade platforms serving <strong>10,000+ users</strong>.</p>
+      <p>Known for improving performance, reliability, and deployment efficiency while measurably reducing risk across healthcare, enterprise security, and regulated environments.</p>
     </div>
     <div class="badge-row">
       <span class="badge">CompTIA Security+ CE</span>
       <span class="badge">M.S. Information Technology</span>
       <span class="badge">B.S. Cybersecurity</span>
-      <span class="badge">Public Trust Eligible</span>
+      <span class="badge">Dean's List</span>
       <span class="badge">Gaithersburg, MD</span>
     </div>
   </div>
   <div class="about-photo-col">
-    <img id="aboutImg" src="" alt="Kparkay Alvin Togba" />
+    <img id="aboutImg" src="" alt="Kparkay Togba" />
   </div>
 </section>
 
-<!-- EXPERTISE -->
-<section id="expertise" class="section-wrap alt-bg">
+<!-- CORE STRENGTHS -->
+<section id="strengths" class="section-wrap alt-bg">
   <div class="section-label">
     <span class="label-line"></span>
-    <span class="label-text">02 — Expertise</span>
+    <span class="label-text">02 — Core Strengths</span>
   </div>
-  <h2 class="section-heading">Core <em>Disciplines</em></h2>
-  <div class="cards-grid">
-    <div class="exp-card">
-      <div class="card-num">01</div>
-      <div class="card-title">Security Engineering</div>
-      <div class="card-desc">SIEM operations, cloud security posture management, IAM lifecycle, incident response, vulnerability management, and multi-framework compliance (PCI DSS, GDPR, HIPAA, NIST).</div>
+  <h2 class="section-heading">Technical <em>Expertise</em></h2>
+  <div class="strengths-grid">
+    <div class="strength-card">
+      <div class="strength-cat">Cloud &amp; Platform</div>
+      <div class="strength-title">Cloud Architecture</div>
+      <div class="strength-desc">AWS (Lambda, S3), Azure, Docker, Kubernetes — containerized microservices and cloud-native delivery.</div>
     </div>
-    <div class="exp-card">
-      <div class="card-num">02</div>
-      <div class="card-title">Cloud Architecture</div>
-      <div class="card-desc">Multi-cloud security and engineering across AWS and Azure — CloudTrail, GuardDuty, Lambda, Kubernetes, containerized microservices, and cloud-native platform delivery at scale.</div>
+    <div class="strength-card">
+      <div class="strength-cat">Backend &amp; APIs</div>
+      <div class="strength-title">Distributed Systems</div>
+      <div class="strength-desc">REST, Microservices, Secure AuthN/AuthZ, and integration patterns for enterprise-scale platforms.</div>
     </div>
-    <div class="exp-card">
-      <div class="card-num">03</div>
-      <div class="card-title">Software Engineering</div>
-      <div class="card-desc">Full-stack development with Python, Java, JavaScript, React, and Redux. Secure microservice design, CI/CD pipeline engineering, and 95%+ automated test coverage.</div>
+    <div class="strength-card">
+      <div class="strength-cat">DevSecOps</div>
+      <div class="strength-title">Secure CI/CD</div>
+      <div class="strength-desc">Jenkins, GitLab CI/CD, automated security scanning, and quality gates baked into every pipeline.</div>
     </div>
-    <div class="exp-card">
-      <div class="card-num">04</div>
-      <div class="card-title">Database Administration</div>
-      <div class="card-desc">PostgreSQL and MongoDB optimization — indexing strategies, query tuning, access control design, and performance engineering for high-throughput clinical workflows.</div>
+    <div class="strength-card">
+      <div class="strength-cat">Data</div>
+      <div class="strength-title">Data Engineering</div>
+      <div class="strength-desc">PostgreSQL, MongoDB, secure query design, access controls, and performance tuning for high-throughput workloads.</div>
     </div>
-    <div class="exp-card">
-      <div class="card-num">05</div>
-      <div class="card-title">Governance &amp; Compliance</div>
-      <div class="card-desc">NIST RMF / 800-53, DISA STIG, POA&amp;M management, executive security briefings, SOP authoring, audit evidence collection, and security awareness program leadership.</div>
+    <div class="strength-card">
+      <div class="strength-cat">Security</div>
+      <div class="strength-title">Secure SDLC</div>
+      <div class="strength-desc">NIST controls, vulnerability management, threat modeling, incident response, and HIPAA/PCI compliance delivery.</div>
     </div>
-    <div class="exp-card">
-      <div class="card-num">06</div>
-      <div class="card-title">UI Design &amp; QA</div>
-      <div class="card-desc">React + Redux frontend development with secure AuthN/AuthZ, responsive healthcare-compliant UI design, and Jest/Mocha automation in GitLab CI/CD quality gates.</div>
+    <div class="strength-card">
+      <div class="strength-cat">Frontend</div>
+      <div class="strength-title">React &amp; Redux</div>
+      <div class="strength-desc">Secure UI patterns, session handling, and healthcare-compliant frontend workflows.</div>
+    </div>
+    <div class="strength-card">
+      <div class="strength-cat">Languages</div>
+      <div class="strength-title">Polyglot Engineer</div>
+      <div class="strength-desc">Python, Java, JavaScript, SQL, Git — full-stack fluency with security-first instincts throughout.</div>
     </div>
   </div>
 </section>
@@ -893,7 +886,7 @@ My approach is simple: build with discipline, secure everything early, automate 
         <span class="label-text" style="color:rgba(255,255,255,0.4);">03 — Experience</span>
       </div>
       <h2 class="section-heading" style="color:#fff;font-size:2.2rem;margin-bottom:20px;">Career<br><em>Timeline</em></h2>
-      <p style="font-size:0.82rem;line-height:1.75;color:rgba(255,255,255,0.4);margin-bottom:36px;">14+ years of measurable impact across healthcare, defense, enterprise IT, and regulated industries.</p>
+      <p style="font-size:0.82rem;line-height:1.75;color:rgba(255,255,255,0.4);margin-bottom:36px;">11+ years of measurable impact across healthcare, enterprise security, and regulated industries.</p>
       <div class="sidebar-cert">
         <span>✓</span> CompTIA Security+ CE
       </div>
@@ -902,32 +895,19 @@ My approach is simple: build with discipline, secure everything early, automate 
   <div class="exp-timeline">
     <div class="t-item">
       <div class="t-left">
-        <span class="t-period">Apr 2026 — Present</span>
-        <div class="t-org">Daltile Inc · Dallas, Texas</div>
-      </div>
-      <div class="t-right">
-        <div class="t-role">Sr. Information Security Engineer &amp; Administrator</div>
-        <ul class="t-bullets">
-          <li>Administer and fine-tune SIEM for real-time threat detection; investigate and escalate critical threats</li>
-          <li>Monitor security across on-prem, Azure, and AWS via CloudTrail, GuardDuty, and Azure-native tooling</li>
-          <li>Manage IAM lifecycle — onboarding, provisioning, access reviews, privileged access auditing</li>
-          <li>Administer TrustArc; collect compliance evidence for PCI, GDPR, and NIST regulatory reviews</li>
-          <li>Lead monthly security awareness newsletters, phishing campaigns, and staff training</li>
-        </ul>
-      </div>
-    </div>
-    <div class="t-item">
-      <div class="t-left">
-        <span class="t-period">Sep 2023 — Mar 2026</span>
+        <span class="t-period">Sep 2023 — Present</span>
         <div class="t-org">MedStar Health · Maryland</div>
       </div>
       <div class="t-right">
         <div class="t-role">Software Engineer</div>
         <ul class="t-bullets">
-          <li>Deployed secure cloud-native microservices with AWS Lambda &amp; Kubernetes — ~60% scalability gain for 10,000+ users</li>
-          <li>Optimized PostgreSQL query performance ~25% for high-throughput clinical workflows</li>
-          <li>Built Jest/Mocha test automation at 95%+ coverage; reduced deployment errors ~40%</li>
-          <li>Applied NIST 800-53 and HIPAA controls; implemented STIG-informed Kubernetes network segmentation</li>
+          <li>Designed and deployed secure cloud-native services using AWS Lambda + S3 with NIST-aligned controls — improving scalability ~60%</li>
+          <li>Improved PostgreSQL performance ~25% via optimized queries, indexing, and access controls for 10k+ users</li>
+          <li>Led migration to containerized microservices (Docker + Kubernetes) with network segmentation — boosting deployment efficiency ~70%</li>
+          <li>Built and hardened CI/CD pipelines (Jenkins + GitLab) with automated testing and vulnerability scanning — reducing errors ~40%</li>
+          <li>Developed secure React + Redux frontend workflows with AuthN/AuthZ aligned to healthcare compliance</li>
+          <li>Achieved 95%+ test coverage via security-focused Jest/Mocha testing</li>
+          <li>Integrated enterprise APIs (Google Maps, Twilio) using secure authentication — improving user engagement ~35%</li>
         </ul>
       </div>
     </div>
@@ -939,9 +919,10 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="t-right">
         <div class="t-role">Cyber Security Analyst</div>
         <ul class="t-bullets">
-          <li>Executed security assessments, vulnerability scanning, and penetration testing; triaged SIEM alerts</li>
-          <li>Applied NIST RMF, 800-53, and DISA STIG; managed remediation through POA&amp;M workflows</li>
-          <li>Delivered executive-level security briefings; mentored junior analysts on SOC workflows</li>
+          <li>Executed security assessments, vulnerability scanning, and penetration testing across network, system, and application layers</li>
+          <li>Monitored SIEM alerts, triaged incidents, and coordinated containment/remediation per incident response procedures</li>
+          <li>Developed and enforced security policies, standards, and procedures aligned to industry best practices</li>
+          <li>Supported firewalls, IDS/IPS, and endpoint security; assisted threat hunting and mentored junior analysts</li>
         </ul>
       </div>
     </div>
@@ -953,8 +934,10 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="t-right">
         <div class="t-role">System Engineer</div>
         <ul class="t-bullets">
-          <li>Built Splunk SIEM monitoring infrastructure; administered AD/Azure AD for 500+ users with RBAC</li>
-          <li>Automated vulnerability scanning program — reduced organizational risk exposure ~45%</li>
+          <li>Built real-time threat monitoring with SIEM (Splunk), improving enterprise visibility</li>
+          <li>Ran a vulnerability management program — reducing risk exposure ~45%</li>
+          <li>Administered Active Directory / Azure AD for 500+ users with RBAC-based access controls</li>
+          <li>Deployed endpoint protection across 500+ devices with consistent security posture</li>
         </ul>
       </div>
     </div>
@@ -966,7 +949,8 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="t-right">
         <div class="t-role">IT Support Specialist</div>
         <ul class="t-bullets">
-          <li>Tier 1–2 support for 300+ users (~95% SLA); administered AD/Office 365, VPN, SCCM in high-availability environment</li>
+          <li>Delivered Tier 1–2 support for 300+ users maintaining ~95% SLA performance</li>
+          <li>Supported AD/Office 365, VPN, SCCM, and endpoint configurations in high-availability environment</li>
         </ul>
       </div>
     </div>
@@ -978,7 +962,8 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="t-right">
         <div class="t-role">Network Administrator</div>
         <ul class="t-bullets">
-          <li>Implemented and maintained network security controls — firewalls, IDS, VPN, MFA — in large-scale regulated healthcare environment</li>
+          <li>Implemented and maintained network security controls — firewalls, IDS, VPN — in compliance-driven healthcare environments</li>
+          <li>Supported asset tracking, monitoring, and MFA enhancement initiatives</li>
         </ul>
       </div>
     </div>
@@ -990,8 +975,8 @@ My approach is simple: build with discipline, secure everything early, automate 
   <img id="stripImg" src="" alt="" class="photo-strip-img" />
   <div class="photo-strip-overlay">
     <div class="strip-quote">
-      <blockquote>"Security-first mindset, meticulous documentation discipline, and a proven record delivering measurable outcomes."</blockquote>
-      <cite>Kparkay Alvin Togba · Daltile Inc · Dallas, Texas</cite>
+      <blockquote>"Security-first mindset with a proven record improving performance, reliability, and deployment efficiency while measurably reducing risk."</blockquote>
+      <cite>Kparkay Togba · Software Engineer · MedStar Health</cite>
     </div>
   </div>
 </div>
@@ -1005,51 +990,51 @@ My approach is simple: build with discipline, secure everything early, automate 
   <h2 class="section-heading">Technology <em>Proficiency</em></h2>
   <div class="skills-layout">
     <div class="skill-col">
-      <div class="skill-col-head">Languages &amp; Frameworks</div>
+      <div class="skill-col-head">Cloud &amp; Infra</div>
+      <div class="skill-col-sub">Platforms</div>
+      <ul class="skill-items">
+        <li>AWS (Lambda, S3)</li>
+        <li>Azure / Azure AD</li>
+        <li>Docker / Kubernetes</li>
+        <li>Jenkins / GitLab CI/CD</li>
+        <li>Microservices</li>
+        <li>REST APIs</li>
+      </ul>
+    </div>
+    <div class="skill-col">
+      <div class="skill-col-head">Languages</div>
       <div class="skill-col-sub">Dev Stack</div>
       <ul class="skill-items">
         <li>Python</li>
         <li>Java</li>
-        <li>JavaScript / TypeScript</li>
+        <li>JavaScript</li>
+        <li>SQL / Git</li>
         <li>React / Redux</li>
-        <li>REST APIs / Microservices</li>
         <li>Jest / Mocha</li>
       </ul>
     </div>
     <div class="skill-col">
-      <div class="skill-col-head">Cloud &amp; Infrastructure</div>
-      <div class="skill-col-sub">Platforms</div>
+      <div class="skill-col-head">Data</div>
+      <div class="skill-col-sub">Databases</div>
       <ul class="skill-items">
-        <li>AWS (Lambda, GuardDuty)</li>
-        <li>Azure / Azure AD</li>
-        <li>Kubernetes / Docker</li>
-        <li>GitLab CI/CD</li>
-        <li>PostgreSQL / MongoDB</li>
-        <li>Active Directory</li>
+        <li>PostgreSQL</li>
+        <li>MongoDB</li>
+        <li>Secure Query Design</li>
+        <li>Access Controls</li>
+        <li>Performance Tuning</li>
+        <li>Indexing Strategies</li>
       </ul>
     </div>
     <div class="skill-col">
-      <div class="skill-col-head">Security Tools</div>
+      <div class="skill-col-head">Security</div>
       <div class="skill-col-sub">SecOps</div>
       <ul class="skill-items">
+        <li>Secure SDLC</li>
+        <li>NIST Controls</li>
+        <li>HIPAA / PCI</li>
         <li>SIEM / Splunk</li>
-        <li>IAM / MFA / RBAC</li>
-        <li>TrustArc</li>
-        <li>Vulnerability Management</li>
-        <li>Penetration Testing</li>
+        <li>Vulnerability Mgmt</li>
         <li>Incident Response</li>
-      </ul>
-    </div>
-    <div class="skill-col">
-      <div class="skill-col-head">Compliance &amp; GRC</div>
-      <div class="skill-col-sub">Governance</div>
-      <ul class="skill-items">
-        <li>NIST 800-53 / RMF / CSF</li>
-        <li>PCI DSS / GDPR / HIPAA</li>
-        <li>DISA STIG</li>
-        <li>POA&amp;M Management</li>
-        <li>SOPs / Playbooks</li>
-        <li>Security Awareness</li>
       </ul>
     </div>
   </div>
@@ -1065,7 +1050,7 @@ My approach is simple: build with discipline, secure everything early, automate 
         <span class="label-text" style="color:rgba(255,255,255,0.35);">05 — Contact</span>
       </div>
       <h2 class="section-heading" style="color:#fff;font-size:2.6rem;margin-bottom:20px;">Let's<br><em>Connect</em></h2>
-      <p>Open to select opportunities in cybersecurity leadership, security engineering, and technology strategy roles across the Dallas, Texas area and beyond.</p>
+      <p>Open to select opportunities in cloud-native engineering, DevSecOps, and security-focused software roles.</p>
       <a href="mailto:alvintogba@yahoo.com" class="btn-blue" style="width:fit-content;">Send Message</a>
     </div>
   </div>
@@ -1095,7 +1080,7 @@ My approach is simple: build with discipline, secure everything early, automate 
       <div class="c-icon">📍</div>
       <div class="c-info">
         <div class="c-type">Location</div>
-        <div class="c-val">Gaithersburg, MD · DC Metro</div>
+        <div class="c-val">Gaithersburg, MD</div>
       </div>
     </div>
   </div>
@@ -1103,8 +1088,8 @@ My approach is simple: build with discipline, secure everything early, automate 
 
 <!-- FOOTER -->
 <footer>
-  <span>© 2026 Kparkay Alvin Togba · Technology &amp; Security Leader</span>
-  <span>Dallas, Texas · Public Trust Eligible</span>
+  <span>© 2026 Kparkay Togba · Security-First Senior Software Engineer</span>
+  <span>Gaithersburg, MD · CompTIA Security+ CE · Dean's List</span>
 </footer>
 
 <script>
@@ -1116,20 +1101,17 @@ document.getElementById('sidebarPhoto').style.backgroundImage = `url('${PHOTO}')
 document.getElementById('contactBg').style.backgroundImage = `url('${PHOTO}')`;
 setTimeout(() => document.getElementById('heroPhoto').classList.add('loaded'), 100);
 
-// Nav scroll
 const nav = document.getElementById('nav');
 window.addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 50));
 
-// Marquee content
-const items = ['Security Engineering','Cloud Architecture','SIEM Operations','IAM & Compliance','Software Engineering','Database Administration','NIST Frameworks','Incident Response','QA Automation','Network Operations'];
+const items = ['Cloud-Native Engineering','DevSecOps','Secure SDLC','AWS · Azure · Kubernetes','Microservices','CI/CD Pipelines','React + Redux','PostgreSQL','Vulnerability Management','NIST Controls','Incident Response','HIPAA / PCI'];
 const marqueeEl = document.getElementById('marquee');
 let html = '';
 for (let i = 0; i < 3; i++) items.forEach(t => { html += `<span class="marquee-item">${t} <span>✦</span></span>`; });
 marqueeEl.innerHTML = html;
 
-// Scroll reveals
 const io = new IntersectionObserver(entries => entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); }), { threshold: 0.12 });
-document.querySelectorAll('.exp-card, .t-item, .skill-col').forEach(el => io.observe(el));
+document.querySelectorAll('.strength-card, .t-item, .skill-col').forEach(el => io.observe(el));
 </script>
 </body>
 </html>
