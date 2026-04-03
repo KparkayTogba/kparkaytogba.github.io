@@ -1,86 +1,140 @@
-# Kparkay Togba
-### Security-First Senior Software Engineer
+# Kparkay (Alvin) Togba
 
-> Cloud-Native · DevSecOps · Distributed Systems · AWS / Azure · Kubernetes · Secure SDLC
-
----
-
-## About
-
-Security-first software engineer with **11+ years** across software engineering, cybersecurity operations, and cloud-native infrastructure. I build secure, scalable systems using microservices, containerization, CI/CD automation, and modern API architectures — with a strong foundation in Secure SDLC, NIST-aligned controls, incident response, and compliance-driven delivery (HIPAA / PCI).
-
-My background combines hands-on software engineering with deep cybersecurity expertise, allowing me to design systems that are not only scalable but resilient and compliant.
+**Cloud Security Engineer · DevSecOps Architect · Tech Founder**
+📍 Washington DC–Baltimore Area | 🔗 [LinkedIn](https://www.linkedin.com/in/kparkay-togba) | 📧 kparkaytogba@gmail.com | 🌐 [Portfolio](https://KparkayTogba.github.io)
 
 ---
 
-## Core Strengths
+## About Me
 
-| Area | Technologies |
-|---|---|
-| **Cloud & Platform** | AWS (Lambda, S3), Azure, Docker, Kubernetes |
-| **Backend & APIs** | REST, Microservices, Secure AuthN/AuthZ, Integration Patterns |
-| **DevSecOps** | Jenkins, GitLab CI/CD, Automated Security Scanning, Quality Gates |
-| **Data** | PostgreSQL, MongoDB, Secure Query Design, Access Controls, Performance Tuning |
-| **Security** | Secure SDLC, NIST Controls, Vulnerability Management, Incident Response, HIPAA/PCI |
-| **Frontend** | React, Redux — Secure UI Patterns and Session Handling |
-| **Languages** | Python, Java, JavaScript, SQL, Git |
+I build systems that don't fail — and I secure the infrastructure that powers them.
+
+Over **14+ years** I've designed, deployed, and hardened enterprise-grade cloud and security architectures across **healthcare**, **government**, **aviation**, and **technology** sectors. Currently at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architect HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily.
+
+I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powered unified workspace replacing 20 browser tabs with one intelligent environment for notes, tasks, files, chat, and calendar. **12,000+ early adopters** on the waitlist and growing.
 
 ---
 
-## Featured Focus Areas
+## Tech Stack
 
-- **Secure serverless architectures** — AWS Lambda + S3 with NIST-aligned controls
-- **Kubernetes modernization** — containerized microservices with network segmentation and policy controls
-- **Automated DevSecOps pipelines** — security gates, vulnerability scanning, and quality-enforced CI/CD
-- **Database optimization** — PostgreSQL performance tuning and access control hardening
-- **Identity & access management** — Active Directory, Azure AD, RBAC implementation
-- **Incident response & vulnerability management** — SIEM triage, threat hunting, remediation workflows
-
----
-
-## Experience Highlights
-
-**Software Engineer — MedStar Health** *(Sep 2023 – Present)*
-Designed and deployed secure cloud-native services serving 10,000+ users. Improved scalability ~60%, reduced deployment errors ~40%, and achieved 95%+ automated test coverage.
-
-**Cyber Security Analyst — Online Business Systems** *(Feb 2018 – Aug 2023)*
-Executed security assessments, penetration testing, and SIEM-based incident response. Developed and enforced security policies aligned to industry best practices.
-
-**System Engineer — Aweteks Security** *(Jun 2015 – Jan 2018)*
-Built enterprise SIEM monitoring with Splunk. Administered AD/Azure AD for 500+ users and ran a vulnerability management program that reduced risk exposure ~45%.
+| Domain | Technologies |
+|--------|-------------|
+| **Cloud** | AWS (CloudTrail, CloudWatch, Lambda, EC2, S3, IAM, VPC, Security Hub), Microsoft Azure |
+| **Containers & Orchestration** | Kubernetes, Docker, Helm |
+| **DevSecOps & CI/CD** | Terraform, Ansible, GitHub Actions, Jenkins, SAST/DAST pipelines |
+| **Security** | Splunk SIEM, IDS/IPS, Penetration Testing, Incident Response, Zero Trust Architecture |
+| **Compliance** | HIPAA, NIST 800-53, SOC 2, ISO 27001 |
+| **Development** | Python, JavaScript/Node.js, REST APIs, Microservices, PostgreSQL, Bash |
+| **IAM** | Active Directory, Azure AD, RBAC, MFA, OAuth |
 
 ---
 
-## Education & Certifications
+## Career Timeline
 
-- **M.S., Information Technology** *(Software Engineering)* — University of Maryland Global Campus · Dean's List
-- **B.S., Cybersecurity Management & Policy** — University of Maryland Global Campus
-- **Certificate, Network Systems Administration** — Lincoln Tech
-- **CompTIA Security+ CE** — Active Certification
-
----
-
-## Professional Philosophy
-
-I believe security should be embedded into engineering from day one — not bolted on at the end. I build systems that:
-
-- **Scale efficiently** under real-world load
-- **Deploy safely** through hardened, automated pipelines
-- **Maintain compliance** with NIST, HIPAA, and PCI frameworks
-- **Reduce operational risk** through proactive vulnerability management
-- **Improve performance metrics** with measurable, documented results
+```
+2010 – 2012  Network Administrator    Baylor Scott & White Health   Healthcare network & security foundation
+2012 – 2015  IT Support Specialist    Delta Air Lines               Enterprise IT at Fortune 500 scale
+2015 – 2018  System Engineer          Aweteks Security              Splunk, IAM, vulnerability management
+2018 – 2023  Cyber Security Analyst   Online Business Systems/CGI   Pen testing, SIEM, incident response
+2023 – Now   Software Engineer        MedStar Health                AWS · Kubernetes · DevSecOps · HIPAA
+2023 – Now   Founder & CEO            MergeAI                       AI startup · 12K+ waitlist users
+```
 
 ---
 
-## Portfolio & Contact
+## Experience
 
-| | |
-|---|---|
-| 🌐 **Portfolio** | [KparkayTogba.github.io](https://KparkayTogba.github.io) |
-| 📧 **Email** | [alvintogba@yahoo.com](mailto:alvintogba@yahoo.com) |
-| 🔗 **LinkedIn** | [kparkay-togba-54bb0828](https://www.linkedin.com/in/kparkay-togba-54bb0828/) |
-| 📍 **Location** | Gaithersburg, MD | 20878
+### Software Engineer — MedStar Health *(Sep 2023 – Present · On-site)*
+
+Lead cloud and software engineering for one of the nation's largest not-for-profit health systems — 10 hospitals, 300+ care locations, millions of patients.
+
+- Architect and maintain **HIPAA-compliant, high-availability** cloud infrastructure on AWS and Azure across **300+ care locations** with zero unplanned downtime
+- Deployed **AWS CloudTrail + CloudWatch** monitoring pipelines, cutting mean time-to-detect (MTTD) security events by **60%**
+- Drove DevSecOps transformation — integrated **SAST/DAST** scanning into CI/CD pipelines, compressing vulnerability remediation from weeks to hours
+- Orchestrated containerised healthcare applications on **Kubernetes**, sustaining **99.9% uptime SLA**
+- Designed and enforced **IAM policies and network segmentation** aligned with NIST 800-53, HIPAA, and SOC 2
+- Bridged engineering and executive stakeholders, translating complex regulatory requirements into scalable technical architectures
 
 ---
 
-*© 2026 Kparkay Togba · Security-First Senior Software Engineer*
+### Cyber Security Analyst — Online Business Systems (now CGI) *(Feb 2018 – Aug 2023 · Remote)*
+
+Delivered enterprise cybersecurity operations for a global IT consulting firm, protecting client systems across multiple industries.
+
+- Conducted **penetration testing, vulnerability assessments, and security audits** across 50+ client systems and applications
+- Operated and tuned **Splunk SIEM** pipelines, improving analyst efficiency by **40%** and reducing false-positive alert rates
+- Led full-lifecycle **incident response** — investigation, containment, eradication, and post-incident reporting
+- Authored and enforced security policies aligned with **NIST CSF, ISO 27001**, and client compliance requirements
+- Hardened network perimeters via **firewall management, IDS/IPS tuning**, and endpoint protection
+- Mentored **3 junior analysts** and delivered organisation-wide security awareness training programmes
+
+---
+
+### System Engineer — Aweteks Security *(Jun 2015 – Jan 2018 · On-site)*
+
+Engineered and secured enterprise IT infrastructure combining systems administration with proactive threat management.
+
+- Built real-time threat monitoring solutions using **Splunk**, establishing centralised visibility across enterprise environments
+- Managed vulnerability scanning programmes, reducing organisational risk exposure by **~45%**
+- Administered **IAM for 500+ users** using Active Directory and Azure AD, enforcing least-privilege principles
+- Deployed **RBAC frameworks and endpoint protection** strategies across enterprise systems
+
+---
+
+### IT Support Specialist — Delta Air Lines *(Jul 2012 – May 2015 · On-site)*
+
+Provided enterprise IT support for one of the world's largest airlines in a high-velocity, mission-critical environment.
+
+- Delivered Tier 1–2 support to **300+ users** with **~95% SLA compliance**
+- Administered **Active Directory, Office 365, and VPN** access control systems
+- Executed **SCCM deployments** and endpoint configuration management at enterprise scale
+- Authored IT process documentation that reduced recurring ticket volume and average resolution time
+
+---
+
+### Network Administrator — Baylor Scott & White Health *(Jul 2010 – May 2012 · Remote)*
+
+Early foundation in healthcare network security — the start of a 14+ year journey building secure, compliant systems.
+
+- Implemented and maintained enterprise network security infrastructure — **firewalls, IDS, and VPNs**
+- Supported compliance-driven IT operations with strong security controls in a sensitive healthcare environment
+- Assisted with **MFA implementation** and network monitoring processes
+
+---
+
+## Founder — MergeAI *(2023 – Present)*
+
+Building **MergeAI** — an AI-powered unified workspace that eliminates tool fragmentation for knowledge workers. One environment for notes, tasks, files, chat, calendar, and AI.
+
+- **12,000+ early adopters** on the waitlist pre-launch through organic content strategy
+- Full company foundation delivered: technical architecture & API docs, investor pitch deck, 5-year financial model, competitive analysis & market research
+- Secured startup funding for initial product development and go-to-market execution
+
+🔗 **Join the waitlist:** [lnkd.in/ecfhn3at](https://lnkd.in/ecfhn3at)
+
+---
+
+## Education
+
+| Degree | Institution |
+|--------|-------------|
+| **M.S. Information Technology** (Software Engineering) | University of Maryland Global Campus |
+| **B.S. Cybersecurity Management & Policy** | University of Maryland Global Campus |
+| **CompTIA Security+ CE** | CompTIA |
+
+---
+
+## Philosophy
+
+> *"Security should be embedded into engineering from day one — not bolted on at the end."*
+
+I build systems that **scale efficiently**, **deploy safely**, **maintain compliance**, and **reduce operational risk** — across healthcare, government, and enterprise environments.
+
+---
+
+## Connect
+
+- 🌐 **Portfolio:** [KparkayTogba.github.io](https://KparkayTogba.github.io)
+- 💼 **LinkedIn:** [linkedin.com/in/kparkay-togba](https://www.linkedin.com/in/kparkay-togba)
+- 📧 **Email:** kparkaytogba@gmail.com
+- 🚀 **MergeAI:** [lnkd.in/ecfhn3at](https://lnkd.in/ecfhn3at)
