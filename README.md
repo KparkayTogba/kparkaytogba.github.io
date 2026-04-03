@@ -79,7 +79,7 @@ I believe security should be embedded into engineering from day one — not bolt
 | 🌐 **Portfolio** | [KparkayTogba.github.io](https://KparkayTogba.github.io) |
 | 📧 **Email** | [alvintogba@yahoo.com](mailto:alvintogba@yahoo.com) |
 | 🔗 **LinkedIn** | [kparkay-togba-54bb0828](https://www.linkedin.com/in/kparkay-togba-54bb0828/) |
-| 📍 **Location** | Gaithersburg, MD |
+| 📍 **Location** | Gaithersburg, MD | 20878
 
 ---
 
