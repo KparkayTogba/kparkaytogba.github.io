@@ -9,7 +9,7 @@
 
 I build systems that don't fail — and I secure the infrastructure that powers them.
 
-Over **14+ years** I've designed, deployed, and hardened enterprise-grade cloud and security architectures across **healthcare**, **government**, **aviation**, and **technology** sectors. Currently at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architect HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily.
+Over **11+ years** I've designed, deployed, and hardened enterprise-grade cloud and security architectures across **healthcare**, **government**, **aviation**, and **technology** sectors. Currently at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architect HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily.
 
 I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powered unified workspace replacing 20 browser tabs with one intelligent environment for notes, tasks, files, chat, and calendar. **12,000+ early adopters** on the waitlist and growing.
 
