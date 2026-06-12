@@ -1,7 +1,7 @@
 # Kparkay (Alvin) Togba
 
-**Cloud Security Engineer · DevSecOps Architect · Tech Founder**
-📍 Washington DC–Baltimore Area | 🔗 [LinkedIn](https://www.linkedin.com/in/kparkay-togba) | 📧 kparkaytogba@gmail.com | 🌐 [Portfolio](https://KparkayTogba.github.io)
+**Senior Site Reliability Engineer · Cloud Security Engineer · DevSecOps Architect · Tech Founder**
+📍 Washington DC–Baltimore Area | 🔗 [LinkedIn](https://www.linkedin.com/in/kparkay-togba) | 📧 atogba@aamva.org | 📧 kparkaytogba@gmail.com | 🌐 [Portfolio](https://KparkayTogba.github.io)
 
 ---
 
@@ -9,7 +9,9 @@
 
 I build systems that don't fail — and I secure the infrastructure that powers them.
 
-Over **11+ years** I've designed, deployed, and hardened enterprise-grade cloud and security architectures across **healthcare**, **government**, **aviation**, and **technology** sectors. Currently at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architect HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily.
+Over **11+ years** I've designed, deployed, and hardened enterprise-grade cloud, reliability, and security architectures across **government**, **healthcare**, **aviation**, and **technology** sectors. Currently a **Senior Site Reliability Engineer at AAMVA** (American Association of Motor Vehicle Administrators), where I help ensure the reliability, observability, and resilience of platforms used by motor vehicle and law enforcement agencies across the U.S. and Canada.
+
+Previously at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architected HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily across 10 hospitals and 300+ care locations.
 
 I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powered unified workspace replacing 20 browser tabs with one intelligent environment for notes, tasks, files, chat, and calendar. **12,000+ early adopters** on the waitlist and growing.
 
@@ -19,7 +21,7 @@ I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powere
 
 | Domain | Technologies |
 |--------|-------------|
-| **Cloud** | AWS (CloudTrail, CloudWatch, Lambda, EC2, S3, IAM, VPC, Security Hub), Microsoft Azure |
+| **Reliability & Cloud** | AWS (CloudTrail, CloudWatch, Lambda, EC2, S3, IAM, VPC, Security Hub), Microsoft Azure, SLOs/SLIs, On-Call & Incident Response |
 | **Containers & Orchestration** | Kubernetes, Docker, Helm |
 | **DevSecOps & CI/CD** | Terraform, Ansible, GitHub Actions, Jenkins, SAST/DAST pipelines |
 | **Security** | Splunk SIEM, IDS/IPS, Penetration Testing, Incident Response, Zero Trust Architecture |
@@ -32,23 +34,36 @@ I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powere
 ## Career Timeline
 
 ```
-2010 – 2012  Network Administrator    Baylor Scott & White Health   Healthcare network & security foundation
-2012 – 2015  IT Support Specialist    Delta Air Lines               Enterprise IT at Fortune 500 scale
-2015 – 2018  System Engineer          Aweteks Security              Splunk, IAM, vulnerability management
-2018 – 2023  Cyber Security Analyst   Online Business Systems/CGI   Pen testing, SIEM, incident response
-2023 – Now   Software Engineer        MedStar Health                AWS · Kubernetes · DevSecOps · HIPAA
-2023 – Now   Founder & CEO            MergeAI                       AI startup · 12K+ waitlist users
+2010 – 2012  Network Administrator      Baylor Scott & White Health   Healthcare network & security foundation
+2012 – 2015  IT Support Specialist      Delta Air Lines               Enterprise IT at Fortune 500 scale
+2015 – 2018  System Engineer            Aweteks Security              Splunk, IAM, vulnerability management
+2018 – 2023  Cyber Security Analyst     Online Business Systems/CGI   Pen testing, SIEM, incident response
+2023 – Now   Software Engineer          MedStar Health                AWS · Kubernetes · DevSecOps · HIPAA
+2023 – Now   Founder & CEO              MergeAI                       AI startup · 12K+ waitlist users
+Now          Senior Site Reliability    AAMVA                         Reliability, observability & incident
+             Engineer                                                  response for North American MV systems
 ```
 
 ---
 
 ## Experience
 
+### Senior Site Reliability Engineer — AAMVA *(Present)*
+
+Supporting the reliability, observability, and incident response posture of platforms used by motor vehicle and law enforcement agencies across the U.S. and Canada.
+
+- Serving as Senior SRE for systems relied upon by motor vehicle and licensing agencies across North America
+- Bringing security-first, automation-driven engineering practices from healthcare and enterprise environments into government-adjacent infrastructure
+- Contributing to reliability standards, observability tooling, and incident response processes for mission-critical systems
+- Driving **SLO/SLI**-based reliability practices and infrastructure automation (IaC) across the platform
+
+---
+
 ### Software Engineer — MedStar Health *(Sep 2023 – Present · On-site)*
 
-Lead cloud and software engineering for one of the nation's largest not-for-profit health systems — 10 hospitals, 300+ care locations, millions of patients.
+Led cloud and software engineering for one of the nation's largest not-for-profit health systems — 10 hospitals, 300+ care locations, millions of patients.
 
-- Architect and maintain **HIPAA-compliant, high-availability** cloud infrastructure on AWS and Azure across **300+ care locations** with zero unplanned downtime
+- Architected and maintained **HIPAA-compliant, high-availability** cloud infrastructure on AWS and Azure across **300+ care locations** with zero unplanned downtime
 - Deployed **AWS CloudTrail + CloudWatch** monitoring pipelines, cutting mean time-to-detect (MTTD) security events by **60%**
 - Drove DevSecOps transformation — integrated **SAST/DAST** scanning into CI/CD pipelines, compressing vulnerability remediation from weeks to hours
 - Orchestrated containerised healthcare applications on **Kubernetes**, sustaining **99.9% uptime SLA**
@@ -94,7 +109,7 @@ Provided enterprise IT support for one of the world's largest airlines in a high
 
 ### Network Administrator — Baylor Scott & White Health *(Jul 2010 – May 2012 · Remote)*
 
-Early foundation in healthcare network security — the start of a 14+ year journey building secure, compliant systems.
+Early foundation in healthcare network security — the start of an 11+ year journey building secure, reliable, compliant systems.
 
 - Implemented and maintained enterprise network security infrastructure — **firewalls, IDS, and VPNs**
 - Supported compliance-driven IT operations with strong security controls in a sensitive healthcare environment
@@ -126,9 +141,9 @@ Building **MergeAI** — an AI-powered unified workspace that eliminates tool fr
 
 ## Philosophy
 
-> *"Security should be embedded into engineering from day one — not bolted on at the end."*
+> *"Reliability and security aren't separate disciplines — they're two views of the same engineering discipline: building systems that behave predictably under stress."*
 
-I build systems that **scale efficiently**, **deploy safely**, **maintain compliance**, and **reduce operational risk** — across healthcare, government, and enterprise environments.
+I build systems that **scale efficiently**, **deploy safely**, **maintain compliance**, **stay reliable**, and **reduce operational risk** — across government, healthcare, and enterprise environments.
 
 ---
 
@@ -136,5 +151,6 @@ I build systems that **scale efficiently**, **deploy safely**, **maintain compli
 
 - 🌐 **Portfolio:** [KparkayTogba.github.io](https://KparkayTogba.github.io)
 - 💼 **LinkedIn:** [linkedin.com/in/kparkay-togba](https://www.linkedin.com/in/kparkay-togba)
-- 📧 **Email:** kparkaytogba@gmail.com
+- 📧 **Work Email (AAMVA):** atogba@aamva.org
+- 📧 **Personal Email:** kparkaytogba@gmail.com
 - 🚀 **MergeAI:** [lnkd.in/ecfhn3at](https://lnkd.in/ecfhn3at)
