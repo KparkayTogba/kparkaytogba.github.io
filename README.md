@@ -1,5 +1,7 @@
 # Kparkay (Alvin) Togba
 
+<img src="./profile.jpg" alt="Kparkay Togba" width="160" align="right" style="border-radius:50%;margin-left:16px"/>
+
 **Senior Site Reliability Engineer · Cloud Security Engineer · DevSecOps Architect · Tech Founder**
 📍 Washington DC–Baltimore Area | 🔗 [LinkedIn](https://www.linkedin.com/in/kparkay-togba) | 📧 atogba@aamva.org | 📧 kparkaytogba@gmail.com | 🌐 [Portfolio](https://KparkayTogba.github.io)
 
@@ -11,7 +13,7 @@ I build systems that don't fail — and I secure the infrastructure that powers 
 
 Over **11+ years** I've designed, deployed, and hardened enterprise-grade cloud, reliability, and security architectures across **government**, **healthcare**, **aviation**, and **technology** sectors. Currently a **Senior Site Reliability Engineer at AAMVA** (American Association of Motor Vehicle Administrators), where I help ensure the reliability, observability, and resilience of platforms used by motor vehicle and law enforcement agencies across the U.S. and Canada.
 
-Previously at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architected HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily across 10 hospitals and 300+ care locations.
+Previously at **MedStar Health** — one of the largest not-for-profit health systems in the US — I architected HIPAA-compliant, high-availability platforms that clinicians and millions of patients depend on daily across 10 hospitals and 300+ care locations (Sep 2023 – May 2026).
 
 I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powered unified workspace replacing 20 browser tabs with one intelligent environment for notes, tasks, files, chat, and calendar. **12,000+ early adopters** on the waitlist and growing.
 
@@ -38,7 +40,7 @@ I'm also the **Founder of [MergeAI](https://lnkd.in/ecfhn3at)** — an AI-powere
 2012 – 2015  IT Support Specialist      Delta Air Lines               Enterprise IT at Fortune 500 scale
 2015 – 2018  System Engineer            Aweteks Security              Splunk, IAM, vulnerability management
 2018 – 2023  Cyber Security Analyst     Online Business Systems/CGI   Pen testing, SIEM, incident response
-2023 – Now   Software Engineer          MedStar Health                AWS · Kubernetes · DevSecOps · HIPAA
+2023 – 2026  Software Engineer          MedStar Health                AWS · Kubernetes · DevSecOps · HIPAA
 2023 – Now   Founder & CEO              MergeAI                       AI startup · 12K+ waitlist users
 Now          Senior Site Reliability    AAMVA                         Reliability, observability & incident
              Engineer                                                  response for North American MV systems
@@ -59,7 +61,7 @@ Supporting the reliability, observability, and incident response posture of plat
 
 ---
 
-### Software Engineer — MedStar Health *(Sep 2023 – Present · On-site)*
+### Software Engineer — MedStar Health *(Sep 2023 – May 2026 · On-site)*
 
 Led cloud and software engineering for one of the nation's largest not-for-profit health systems — 10 hospitals, 300+ care locations, millions of patients.
 
