@@ -1,7 +1,5 @@
 # Kparkay (Alvin) Togba
 
-<img src="./profile.jpg" alt="Kparkay Togba" width="160" align="right" style="border-radius:50%;margin-left:16px"/>
-
 **Senior Site Reliability Engineer · Cloud Security Engineer · DevSecOps Architect · Tech Founder**
 📍 Washington DC–Baltimore Area | 🔗 [LinkedIn](https://www.linkedin.com/in/kparkay-togba) | 📧 atogba@aamva.org | 📧 kparkaytogba@gmail.com | 🌐 [Portfolio](https://KparkayTogba.github.io)
 
